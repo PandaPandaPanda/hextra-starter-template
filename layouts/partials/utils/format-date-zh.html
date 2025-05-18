@@ -1,0 +1,3 @@
+{{- with . -}}
+  {{- . | time.Format ( site.Params.dateFormatZh | default "2006年1月2日" ) -}}
+{{- end -}}
